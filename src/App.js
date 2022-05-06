@@ -22,7 +22,6 @@ function App() {
     const todo = newTodos.find(todo => todo.id === id)
     todo.complete = !todo.complete
     setTodos(newTodos)
-
   }
 
   function handleAddTodo(e) {
